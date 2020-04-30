@@ -7,12 +7,28 @@ li {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+main section {
+  margin: 50px 0;
+}
 .wrapper {
   width: 100%;
+}
+
+.text {
+  padding: 20px 0;
+  font-size: 1.2em;
 }
 
 /* Fine Regole Generali */
@@ -28,7 +44,7 @@ nav {
   z-index: 0; */
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -85,10 +101,11 @@ nav .container .header-lang li:nth-child(2) {
   font-size: 3.2em;
 }
 
-.jumbotron .content-jumbo p {
+/* .jumbotron .content-jumbo p {
   padding: 20px 0;
   font-size: 1.2em;
-}
+} */
+
 /* Fine Jumbotron */
 /* FINE HEADER */
 
@@ -104,5 +121,57 @@ nav .container .header-lang li:nth-child(2) {
 @media all and (min-width: 992px) {
 
 }
-
 /* Fine Media Query Header */
+
+/* MAIN */
+/* Product */
+main .product .container {
+  text-align: center;
+}
+
+main .product .container .content-product1,
+main .product .container .content-product2 {
+  background-color: #fafafa;
+  padding: 50px 0 10px 0;
+}
+
+main .product h2 {
+font-size: 2em;
+}
+
+main .product .text {
+font-size: 1.5em;
+}
+
+main .product .container img {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+/* Fine Product */
+
+/* FINE MAIN */
+
+/* Media Query Main */
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (min-width: 769px) and (max-width: 991px) {
+
+}
+
+@media all and (min-width: 992px) {
+  main .product .container .content-product1 {
+    margin-right: 20px;
+  }
+
+  main .product .container .content-product2 {
+    margin-left: 20px;
+  }
+
+  main .product .container img {
+    width: 90%;
+  }
+}
+/* Fine Media Query Main */
