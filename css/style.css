@@ -21,10 +21,24 @@ a {
 /* Navigation */
 nav {
   padding: 20px 0;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 0; */
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+}
+
+nav .nav-logo img {
+  padding-left: 30px;
 }
 
 nav .nav-menus > .container div:first-child {
@@ -46,12 +60,6 @@ nav .container .header-lang li {
 nav .container .header-lang li:nth-child(2) {
   border-left: 1px solid black;
   border-right: 1px solid black;
-}
-
-nav .container .header-menu a,
-nav .container .header-lang a {
-  text-transform: uppercase;
-  color: black;
 }
 /* Fine Navigation */
 
@@ -83,3 +91,18 @@ nav .container .header-lang a {
 }
 /* Fine Jumbotron */
 /* FINE HEADER */
+
+/* Media Query Header */
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (min-width: 769px) and (max-width: 991px) {
+
+}
+
+@media all and (min-width: 992px) {
+
+}
+
+/* Fine Media Query Header */
