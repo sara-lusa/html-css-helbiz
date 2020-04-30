@@ -1,5 +1,35 @@
 /* Regole Generali */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   width: 100%;
 }
+
 /* Fine Regole Generali */
+
+/* HEADER */
+/* Navigation */
+nav .container .header-menu li,
+nav .container .header-lang li {
+  display: inline-block;
+}
+
+nav .container .header-menu a,
+nav .container .header-lang a {
+  text-transform: uppercase;
+  color: black;
+}
+/* Fine Navigation */
+
+
+/* FINE HEADER */
