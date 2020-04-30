@@ -19,9 +19,33 @@ a {
 
 /* HEADER */
 /* Navigation */
+nav {
+  padding: 20px 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .nav-menus > .container div:first-child {
+  text-align: right;
+}
+
 nav .container .header-menu li,
 nav .container .header-lang li {
   display: inline-block;
+  margin-left: 20px;
+  line-height: 22px;
+}
+
+nav .container .header-lang li {
+  margin: 0;
+  padding: 0 15px;
+}
+
+nav .container .header-lang li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 nav .container .header-menu a,
