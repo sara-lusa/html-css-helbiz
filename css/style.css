@@ -101,6 +101,10 @@ nav .container .header-lang li:nth-child(2) {
   font-size: 3.2em;
 }
 
+.jumbotron .content-jumbo img {
+  display: inline;
+}
+
 /* .jumbotron .content-jumbo p {
   padding: 20px 0;
   font-size: 1.2em;
@@ -154,11 +158,16 @@ main .product .container img {
 
 /* Media Query Main */
 @media all and (max-width: 768px) {
-
+  main .product .container .content-product1,
+  main .product .container .content-product2 {
+    font-size: 0.8em;
+  }
 }
 
 @media all and (min-width: 769px) and (max-width: 991px) {
-
+  main .product .container .content-product1,
+  main .product .container .content-product2 {
+    font-size: 0.8em;
 }
 
 @media all and (min-width: 992px) {
