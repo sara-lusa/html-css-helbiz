@@ -114,17 +114,6 @@ nav .container .header-lang li:nth-child(2) {
 /* FINE HEADER */
 
 /* Media Query Header */
-@media all and (max-width: 768px) {
-
-}
-
-@media all and (min-width: 769px) and (max-width: 991px) {
-
-}
-
-@media all and (min-width: 992px) {
-
-}
 /* Fine Media Query Header */
 
 /* MAIN */
@@ -157,7 +146,10 @@ main .product .container img {
 /* FINE MAIN */
 
 /* Media Query Main */
+
+/*    RIGUARDARE PERCHE NON FUNZIONA    */
 @media all and (max-width: 768px) {
+
   main .product .container .content-product1,
   main .product .container .content-product2 {
     font-size: 0.8em;
@@ -165,12 +157,14 @@ main .product .container img {
 }
 
 @media all and (min-width: 769px) and (max-width: 991px) {
+
   main .product .container .content-product1,
   main .product .container .content-product2 {
     font-size: 0.8em;
 }
 
 @media all and (min-width: 992px) {
+
   main .product .container .content-product1 {
     margin-right: 20px;
   }
