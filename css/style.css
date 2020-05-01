@@ -169,13 +169,10 @@ main .explanation .question .main-testo h3 {
   padding: 110px 0 0 130px;
   line-height: 50px;
 }
-
 /* FineExplanation */
 /* FINE MAIN */
 
 /* Media Query Main */
-
-/*    RIGUARDARE PERCHE NON FUNZIONA    */
 @media all and (max-width: 768px) {
 
   main .product .container .content-product1,
@@ -189,6 +186,7 @@ main .explanation .question .main-testo h3 {
   main .product .container .content-product1,
   main .product .container .content-product2 {
     font-size: 0.8em;
+  }
 }
 
 @media all and (min-width: 992px) {
