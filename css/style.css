@@ -138,6 +138,7 @@ main .product .container img {
 /* Fine Product */
 
 /* Explanation */
+/* Main-Banner */
 main .explanation .main-banner {
   background-image: url(../img/HelbizBanner.jpg);
   background-size: cover;
@@ -166,6 +167,7 @@ main .explanation .main-banner div h3 {
   line-height: 40px;
 }
 
+/* Question */
 main .explanation .question .main-testo:last-child {
   padding: 70px 80px 0 0;
 }
@@ -176,6 +178,7 @@ main .explanation .question .main-testo h3 {
   line-height: 50px;
 }
 
+/* Smart-Banner */
 main .explanation .smart-banner {
   background-image: url(../img/ScooterHelbiz.jpg);
   background-repeat: no-repeat;
