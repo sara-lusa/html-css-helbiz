@@ -113,8 +113,6 @@ nav .container .header-lang li:nth-child(2) {
 /* Fine Jumbotron */
 /* FINE HEADER */
 
-/* Media Query Header */
-/* Fine Media Query Header */
 
 /* MAIN */
 /* Product */
@@ -150,24 +148,40 @@ main .explanation .main-banner {
   background-position: 20%;
   background-repeat: no-repeat;
   height: 400px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-main .explanation .question img {
-  width: 100%;
+main .explanation .main-banner img {
+  width: 30%;
   height: auto;
-  position: relative;
-  top: -313px;
-  left: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .explanation .main-banner div:last-child {
+  text-align: right;
+  padding: 40px 20px 40px 0;
+}
+
+main .explanation .main-banner div h3 {
+  line-height: 40px;
 }
 
 main .explanation .question .main-testo:last-child {
-  padding: 140px 0 0 80px;
+  padding: 70px 80px 0 0;
 }
 
 main .explanation .question .main-testo h3 {
   font-size: 2.2em;
-  padding: 110px 0 0 130px;
+  padding: 40px 0 70px 140px;
   line-height: 50px;
+}
+
+main .explanation .smart-banner {
+  background-image: url(../img/ScooterHelbiz.jpg);
 }
 /* FineExplanation */
 /* FINE MAIN */
@@ -179,6 +193,21 @@ main .explanation .question .main-testo h3 {
   main .product .container .content-product2 {
     font-size: 0.8em;
   }
+
+  main .explanation .main-banner {
+    height: 200px;
+  }
+
+  main .explanation .question div.main-testo {
+    background-color:  #fafafa;
+  }
+
+  main .explanation .question .main-testo:last-child,
+  main .explanation .question .main-testo h3 {
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 769px) and (max-width: 991px) {
@@ -186,6 +215,33 @@ main .explanation .question .main-testo h3 {
   main .product .container .content-product1,
   main .product .container .content-product2 {
     font-size: 0.8em;
+  }
+
+  main .explanation .main-banner {
+    height: 300px;
+  }
+
+  main .explanation .main-banner img {
+    width: 25%;
+  }
+
+  main .explanation .question {
+    margin-bottom: 20px;
+  }
+
+  main .explanation .question .main-testo:last-child,
+  main .explanation .question .main-testo h3 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  main .explanation .question .main-testo:last-child {
+    text-align: right;
+  }
+
+  main .explanation .question div.main-testo {
+    background-color:  #fafafa;
+    border-radius: 5px;
   }
 }
 
