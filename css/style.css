@@ -182,6 +182,30 @@ main .explanation .question .main-testo h3 {
 
 main .explanation .smart-banner {
   background-image: url(../img/ScooterHelbiz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+
+main .explanation .smart-banner a {
+  color: white;
+}
+
+main .explanation .smart-banner h1 {
+  font-size: 2.8em;
+}
+main .explanation .smart-banner .smart-col {
+  position: relative;
+  height: 100%;
+}
+
+main .explanation .smart-banner .smart-col .smart-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* FineExplanation */
 /* FINE MAIN */
@@ -198,15 +222,12 @@ main .explanation .smart-banner {
     height: 200px;
   }
 
-  main .explanation .question div.main-testo {
-    background-color:  #fafafa;
+  main .explanation .main-banner div {
+    font-size: 1.5em;
   }
 
-  main .explanation .question .main-testo:last-child,
-  main .explanation .question .main-testo h3 {
-    font-size: 2.5em;
-    padding: 20px;
-    text-align: center;
+  main .explanation .smart-banner .smart-col {
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -242,6 +263,10 @@ main .explanation .smart-banner {
   main .explanation .question div.main-testo {
     background-color:  #fafafa;
     border-radius: 5px;
+  }
+
+  main .explanation .smart-banner .smart-col {
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
