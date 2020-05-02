@@ -387,3 +387,61 @@ main .cta-links .content-product2 {
 
 }
 /* Fine Media Query Main */
+
+/* FOOTER */
+footer {
+  background-color: black;
+}
+
+footer,
+footer a {
+  color: white;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+footer li {
+  padding-top: 10px;
+}
+
+footer img {
+  display: inline;
+  padding-right: 2px;
+}
+
+footer .container {
+  padding: 50px 0;
+}
+
+footer .small-text {
+  font-size: 0.9em;
+}
+
+footer .footer-menu a {
+  color: grey;
+}
+
+footer .footer-links .container {
+  border-bottom: 0.1px solid grey;
+  border-top: 0.1px solid grey;
+}
+
+footer .footer-links li {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 1.5em;
+}
+
+footer .footer-links a:hover {
+  color: grey;
+}
+
+footer .img-links {
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+/* FINE FOOTER */
