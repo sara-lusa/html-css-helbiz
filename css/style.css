@@ -242,8 +242,42 @@ main .cta-links .content-product2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 /* Fine Cta-Links  */
+
+/* Inizio Social-Community */
+.social-community .main-social {
+  background-image: url(../img/Social-Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.social-community .main-social .social-links {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 45px 100px;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+.social-community .main-social .social-links li {
+  display: inline-block;
+}
+
+.social-community .main-social .social-links a {
+  color: black;
+  padding: 0 10px;
+}
+
+.social-community .main-social .social-links a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Fine Social-Community */
 /* FINE MAIN */
 
 /* Media Query Main */
@@ -273,6 +307,15 @@ main .cta-links .content-product2 {
   main .cta-links .content-product1 img {
     width: 40%;
     left: 30%;
+  }
+
+  main .social-community .main-social .social-links {
+    padding: 30px 80px;
+    font-size: 1.2em;
+  }
+
+  .social-community .main-social .social-links a {
+    padding: 0 5px;
   }
 }
 
