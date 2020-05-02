@@ -210,6 +210,7 @@ main #explanation .smart-banner .smart-col .smart-content {
 main #cta-links {
   color: white;
   text-align: center;
+  overflow: hidden;
 }
 
 main #cta-links a {
@@ -228,11 +229,10 @@ main #cta-links .intern-col1 {
 }
 
 main #cta-links .intern-col1 img {
-  width: 50%;
+  width: 90%;
   height: auto;
   position: absolute;
-  left: 25%;
-  bottom: 0%;
+  left: 5%;
 }
 
 main #cta-links .intern-col2 {
@@ -280,6 +280,7 @@ main #social-community .main-social .social-links a:hover {
 
 /* Media Query Main */
 @media all and (max-width: 768px) {
+
   main .intern-col2 {
     margin-top: 20px;
   }
@@ -301,11 +302,6 @@ main #social-community .main-social .social-links a:hover {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  main #cta-links .intern-col1 img {
-    width: 40%;
-    left: 30%;
-  }
-
   main #social-community .main-social .social-links {
     padding: 30px 80px;
     font-size: 1.2em;
@@ -325,6 +321,7 @@ main #social-community .main-social .social-links a:hover {
   main #product .container .intern-col1,
   main #product .container .intern-col2 {
     font-size: 0.8em;
+    /* background-color: #e7b668; */
   }
 
   main #explanation .main-banner {
@@ -363,8 +360,8 @@ main #social-community .main-social .social-links a:hover {
   }
 
   main #cta-links .intern-col1 img {
-    width: 35%;
-    left: 32.5%;
+    width: 80%;
+    left: 10%;
   }
 }
 
@@ -380,6 +377,14 @@ main #social-community .main-social .social-links a:hover {
 
   main #product .container img {
     width: 90%;
+  }
+
+  main #social-community .main-social {
+    height: 400px;
+  }
+
+  main #social-community .main-social .social-links {
+    padding: 55px 100px;
   }
 
 }
@@ -398,11 +403,11 @@ footer a {
 footer h4 {
   text-transform: uppercase;
   font-size: 1em;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 footer li {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 footer .container {
@@ -417,6 +422,10 @@ footer .small-text {
 /* Footer-Menu */
 footer #footer-menu a {
   color: grey;
+}
+
+footer #footer-menu img {
+  margin: 0 auto;
 }
 
 footer #footer-menu .container div:first-child {
@@ -464,6 +473,10 @@ footer #img-links img {
     padding: 50px 0px;
     margin: 0 200px;
     text-align: left;
+  }
+
+  footer #footer-menu img {
+    margin: 0;
   }
 
   footer #footer-menu .container div:first-child {
