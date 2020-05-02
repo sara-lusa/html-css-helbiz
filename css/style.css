@@ -414,7 +414,8 @@ footer img {
 }
 
 footer .container {
-  padding: 50px 0;
+  padding: 50px 20px;
+  text-align: center;
 }
 
 footer .small-text {
@@ -425,6 +426,10 @@ footer .footer-menu a {
   color: grey;
 }
 
+footer .footer-menu .container div:first-child {
+  padding-bottom: 50px;
+}
+
 footer .footer-links .container {
   border-bottom: 0.1px solid grey;
   border-top: 0.1px solid grey;
@@ -432,7 +437,7 @@ footer .footer-links .container {
 
 footer .footer-links li {
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 4px;
   font-size: 1.5em;
 }
 
@@ -445,3 +450,30 @@ footer .img-links {
   padding: 50px 0 100px 0;
 }
 /* FINE FOOTER */
+
+/* Inizio Media Query Footer */
+@media all and (max-width: 768px) {
+  footer .footer-links a {
+    padding-top: px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 991px) {
+
+  footer .footer-links li {
+    padding: 0 2px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  footer .container {
+    padding: 50px 0px;
+    margin: 0 200px;
+    text-align: left;
+  }
+
+  footer .footer-menu .container div:first-child {
+    padding-bottom: 0px;
+  }
+}
+/* Fine Media Query Footer */
