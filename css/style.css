@@ -31,14 +31,17 @@ a:hover {
 /* Fine Regole Generali */
 
 /* HEADER */
+header {
+  margin-top: 62px;
+}
 /* Navigation */
 nav {
   padding: 20px 0;
-  /* position: fixed;
+  background-color: white;
+  position: fixed;
   top: 0;
-  left: 0;
-  display: block;
-  z-index: 0; */
+  width: 100%;
+  z-index: 1;
 }
 
 nav a {
